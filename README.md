@@ -6,6 +6,21 @@
 
 `http-server` is a simple, zero-configuration command-line static HTTP server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
 
+## About this fork
+
+This is a fork of http-server, in order to add some custom features like websocket proxy.
+
+## Changelog
+
+### v14.1.3
+
+Add verbose information for websocket and prevent app crash from connection reset by websocket proxy.
+
+
+### v14.1.2
+
+Add websocket proxy when `proxy` option is on.
+
 ![Example of running http-server](https://github.com/http-party/http-server/raw/master/screenshots/public.png)
 
 ## Installation:
